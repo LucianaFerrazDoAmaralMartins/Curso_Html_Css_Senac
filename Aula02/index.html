@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação e Imagens</title>
+<style>
+    /* Embeded - embutido 
+    esse css é específico dessa página*/
+    /* vamos aplicar o comando *(asterisco) 
+    para referenciar todos os elementos da página 
+    e aplicar a mesma formatação css para todos. */
+    *{
+        font-family: "arial";
+        /* retirar todas as margens EXTERNA dos elementos, o que é?
+        o que está ao redor do objeto, do lado de fora, quando 
+        colocado os elementos se afastam */
+        margin: 0;
+        /* retirar/zerar todas as margens INTERNAS dos elementos, o que é?
+        margem interna dentro do objeto */
+        padding: 0;
+    }
+    header{
+        /* para criar uma cor é aconselhável o hexadecimal e o RGB */
+        /* hexadecimal 0 = baixa luminosidade f= alta luminosidade */
+        /* sempre inicia com hashtag #ff0000 (vermelho) */
+        /* background-color: rgb(255, 255, 100); rgb cor de 0 a 255 é o mais usado*/
+        /* background-color: hsl(10, 50%, 80%); luminosidade */
+        /* background-color: #f00 (cor em hexadecimal) */
+        /* cores pré-definidas pelo navegador */
+        background-color: rgb(184, 131, 131);
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+    h1{
+        font-size: 100pt;
+        color: #fff;
+        text-align: center;
+
+    }
+    h2{
+        margin: 50px;
+    }
+    p{
+        background-color: rgba(63, 8, 38,60%);
+        /* a letra A adicionada ao RGB é a visibilidade, cria a transparência  */
+        margin-left: 200px;
+        margin-right: 200px;
+        padding: 50px;
+        color: #fff;
+        /* Para aumentar a distância entre as linhas do texto iremos usar o 
+        line-height (altura da linha).
+        Este comando é similar ao comando de espaçamento entre linhas do 
+        Microsoft Word */
+        line-height: 20pt;
+        /* comando de indentação do parágrafo, empurra a primeira linha do 
+        parágrafo mais para frente */
+        text-indent: 100px;
+        /* comando para justificar o texto */
+        text-align: justify;
+
+    }
+     body{background-image: url("img/background.jpg");
+
+}
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <header>
+        <h1>Formatação e Imagens</h1>
+    </header>
+    <main>
+        <h2>Bem Vindo!</h2>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsa ex sed repudiandae voluptatibus. Blanditiis quod delectus iusto sed, eos odit. Incidunt cupiditate et id dicta eveniet ad impedit eaque.</span><span>Voluptatibus repellendus officiis ex odio quo. Consectetur consequuntur harum excepturi laboriosam quis perspiciatis asperiores in fugit alias magnam ab a, ratione ea nam explicabo debitis suscipit quae. Dolor, repudiandae enim.</span><span>Voluptatibus, harum necessitatibus dolorem esse incidunt quos dolor qui hic ad repudiandae! Quae ducimus quos ratione dicta aliquam natus magnam eveniet. Tempore ad molestiae modi inventore reiciendis dignissimos, quibusdam voluptatum.</span><span>Voluptate natus voluptatibus, et eius eos est quae labore esse magnam minima in voluptas recusandae quam consectetur placeat sint repellendus omnis facilis perspiciatis suscipit consequuntur ducimus! Magnam id suscipit molestiae!</span><span>Ut pariatur, natus accusantium optio totam omnis illo, doloremque atque recusandae eius sint repudiandae molestiae, beatae vero iure vitae magni dolore quo ducimus officia rem magnam. Doloremque quidem minus modi?</span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deleniti fuga, ratione illum aspernatur voluptate doloremque. Corrupti temporibus, veritatis itaque perferendis repellendus ratione deleniti architecto molestiae esse, tempore, dolores dolorum.</span><span>Accusamus corporis ratione magnam alias id consequatur sit suscipit soluta atque iste sapiente qui distinctio provident, neque deserunt impedit debitis, repellendus fugiat dolorem incidunt! Cumque tempore explicabo sapiente nemo rem!</span><span>Libero consequuntur officiis eius, perferendis doloremque doloribus animi, ullam deserunt ipsum, beatae recusandae veritatis. Deserunt placeat molestias eveniet ex unde alias praesentium, pariatur consectetur sit sunt ut quod tenetur ratione.</span><span>Dolorem ullam eius facere veritatis ipsum consectetur maxime repudiandae repellendus nobis quis ducimus dicta, labore commodi sapiente similique adipisci soluta et distinctio praesentium sint minus voluptatem necessitatibus at. Odio, in.</span><span>Alias, amet, saepe placeat nesciunt quidem rerum quasi hic dolore aliquam, a fugit? Sequi sit itaque voluptatibus, natus error laudantium soluta. Libero id dicta perferendis earum culpa veniam reiciendis ad?</span></p>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
